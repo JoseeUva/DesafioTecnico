@@ -1,4 +1,4 @@
-las dependencias del proyecto son Node.js, firebase-tools, firebase y firebase-functions
+las dependencias del proyecto son Node.js, firebase-tools, firebase, firebase-functions y firebase-admin.
 
 para descargar Node.js se debe ingresar a la pagina oficial de node (https://nodejs.org)
 
