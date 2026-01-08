@@ -3,11 +3,11 @@
   --primary-hover: #535bf2;
   --secondary-color: #747bff;
 
-  --background-color: #ffffff;
+  --background-color: #1a1a1a;
   --surface-color: #e5e5e5;
 
-  --text-primary: #000000;
-  --text-secondary: #000000;
+  --text-primary: #333333;
+  --text-secondary: #666666;
 
   --border-color: #e0e0e0;
 
@@ -22,7 +22,9 @@
 }
 
 body {
-  background-image: url('C:\Users\skype\OneDrive\Escritorio\a\web-app\public\orange.webp');
+  background-image: url('/orange.webp');
+  background-attachment: fixed;
+  background-size: cover;
   font-family: Comic Sans MS, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: var(--background-color);
   color: var(--text-primary);

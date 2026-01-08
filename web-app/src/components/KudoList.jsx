@@ -21,7 +21,7 @@ const KudoList = () => {
                 kudosData.push({
                     id: doc.id,
                     ...data,
-                    createdAt: data.createdAt?.toDate ? data.createdAt.toDate().toISOString() : new Date().toISOString()
+                    createdAt: data?.createdAt?.toDate ? data.createdAt.toDate().toISOString() : new Date().toISOString()
                 });
             });
             kudosData.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
