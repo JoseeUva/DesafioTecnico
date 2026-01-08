@@ -1,0 +1,20 @@
+I0106 11:42:49.974318    5012 load.go:31] Reloading schema and connectors...
+I0106 11:42:50.031377    5012 control.go:94] [/emulator/skype f2c3] UpdateResources(): done
+Main schema: sources: schema\schema.gql [270B] 
+Connector "example": sources: example\queries.gql [902B] 
+I0106 11:42:50.063570    5012 codegen.go:80] [connector "example" javascriptSdk] Generating sources into "C:\\Users\\skype\\OneDrive\\Escritorio\\the kudos wall\\web-app\\src\\dataconnect-generated"
+I0106 11:42:50.072920    5012 codegen.go:80] [connector "example" javascriptSdk] Generating sources into "C:\\Users\\skype\\OneDrive\\Escritorio\\a\\web-app\\src\\dataconnect-generated"
+I0106 11:42:50.081435    5012 collector.go:107] schema extensions wrote into "C:\\Users\\skype\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [73219B] main\implicit.gql [1482B] main\input.gql [19325B] main\relation.gql [8972B] main\query.gql [3723B] main\mutation.gql [9955B] 
+I0106 11:42:50.090455    5012 collector.go:107] connector "example" javascriptSdk wrote into "C:\\Users\\skype\\OneDrive\\Escritorio\\the kudos wall\\web-app\\src\\dataconnect-generated"
+Generated sources: react\README.md [27970B] react\index.cjs.js [1727B] .guides/setup.md [1682B] index.d.ts [3882B] esm\index.esm.js [1780B] README.md [21536B] react\index.d.ts [2102B] react\package.json [460B] .guides/usage.md [2376B] .guides/config.json [236B] esm\package.json [17B] index.cjs.js [2047B] package.json [863B] react\esm\package.json [17B] react\esm\index.esm.js [1638B] 
+I0106 11:42:50.090965    5012 installsdk.go:55] Package @dataconnect/generated is already installed. Skipping installation
+I0106 11:42:50.095983    5012 collector.go:107] connector "example" javascriptSdk wrote into "C:\\Users\\skype\\OneDrive\\Escritorio\\a\\web-app\\src\\dataconnect-generated"
+Generated sources: index.d.ts [3882B] esm\index.esm.js [1780B] esm\package.json [17B] package.json [863B] react\package.json [460B] react\esm\package.json [17B] .guides/setup.md [1682B] index.cjs.js [2047B] react\index.d.ts [2102B] react\esm\index.esm.js [1638B] .guides/usage.md [2376B] react\index.cjs.js [1727B] README.md [21536B] react\README.md [27970B] .guides/config.json [236B] 
+I0106 11:42:50.096984    5012 installsdk.go:55] Package @dataconnect/generated is already installed. Skipping installation
+I0106 11:42:50.096984    5012 load.go:109] Finished reloading
+I0106 11:42:50.097983    5012 dev.go:104] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0106 11:42:50.097983    5012 dev.go:104] Listening on address (HTTP + gRPC): [::1]:9399
+I0106 11:42:52.643038    5012 control.go:94] [/emulator/skype 2cc5] UpdateResources(): done
+Main schema: sources: schema\schema.gql [270B] 
+Connector "example": sources: example\queries.gql [902B] 
