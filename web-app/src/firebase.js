@@ -4,13 +4,13 @@ import { getDataConnect } from 'firebase/data-connect';
 import { connectorConfig } from '@dataconnect/generated';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAKYdDHHu7qb2Qn6NGOacj0useWmrl3BQ8",
-    authDomain: "the-kudos-wall.firebaseapp.com",
-    projectId: "the-kudos-wall",
-    storageBucket: "the-kudos-wall.firebasestorage.app",
-    messagingSenderId: "856430001558",
-    appId: "1:856430001558:web:723d2d65e43b0407c831b7",
-    measurementId: "G-ZYM7RB10LD"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
